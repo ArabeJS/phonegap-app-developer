@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.adobe.phonegap.app" version="1.8.4" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>PhoneGap</name>
+<widget id="com.adobe.phjkhjnegap.app" version="1.8.4" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>RD-PhoneGap</name>
     <description>
         The PhoneGap Developer app is a testing utility for web developers and designers using the PhoneGap framework. After installing this app on your device you will be able to connect it to the PhoneGap desktop app to instantly view and test your work
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
+    <author email="suppbnort@phonnegap.com" href="http://phonnbegap.com">
         Adobe PhoneGap Team
     </author>
     <hook src="resources/script/before-test-runner.js" type="before_prepare" />
@@ -17,7 +17,7 @@
     <preference name="DisallowOverscroll" value="true" />
     <access origin="*" />
     <content src="index.html" />
-     <platform name="windows">
+    <platform name="windows">
     </platform>
     <platform name="ios">
         <preference name="Orientation" value="all" />
@@ -106,4 +106,5 @@
         <variable name="FCM_VERSION" value="11.0.1" />
     </plugin>
     <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
+    <plugin name="cordova-plugin-bluetooth-serial" spec="^0.4.7" />
 </widget>

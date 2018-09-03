@@ -5,15 +5,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
   <title>RD</title>
-  <script type="text/javascript">
-	cordova.InAppBrowser.open('http://192.168.1.116:3000', '_blank', 'toolbar=yes', location=yes');
-  </script>
 </head>
 
 <body layout="column">
  <center>
   <h1>Loading...</h1>
  </center>
+ 
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="cordova_plugins.js"></script>
+  <script type="text/javascript">
+	cordova.InAppBrowser.open('http://192.168.1.116:3000', '_blank', 'toolbar=yes', 'location=yes');
+  </script>
+  
 </body>
 
 </html>

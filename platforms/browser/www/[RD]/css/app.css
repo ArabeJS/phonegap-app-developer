@@ -1,0 +1,50 @@
+body {
+  background: #f1f1f1;
+}
+
+#RD-enbBle {
+  text-align: center;
+}
+
+.RD-subIco {
+  font-size: 10em;
+  width: 1em;
+  height: 1em;
+}
+
+.RD-myFlex {
+  height: 100%;
+}
+
+.RD-blue-light {
+  background: rgb(3, 169, 244);
+}
+
+.RD-blue {
+  background-color: #2196F3;
+}
+
+#RD-list md-list {
+  margin: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.RD-login-c {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 90%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.RD-login-c input {
+  background: transparent;
+  border: 0;
+  width: 100%;
+  height: 40px;
+  font-size: 30px;
+  padding: 10px;
+  color: #fff;
+}

@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "RD-INMT",
+  "short_name": "RD-INMT",
+  "version": "rd.raafet.developer.inmt",
+  "description": "A RD-INMT Raafet Lahmar app.",
+  "author": "Raafet Lahmar",
+  "icons": [],
+  "start_url": "index.html"
+}

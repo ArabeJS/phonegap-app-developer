@@ -1,0 +1,20 @@
+<div class="RD-myFlex RD-blue-light" layout="column">
+  <div flex style="text-align: center;">
+    <md-icon class="material-icons RD-subIco" style="color:#fff;">developer_mode</md-icon>
+  </div>
+
+  <div id="RD-list" flex="">
+    <md-list>
+      <md-subheader class="md-no-sticky">
+        {{ '05' | translate }}
+      </md-subheader>
+
+      <md-list-item ng-repeat="x in list" ng-click="connectDevice(x.id)">
+        <md-icon class="material-icons">bluetooth</md-icon>
+        <p>{{x.name}}</p>
+      </md-list-item>
+    </md-list>
+  </div>
+
+  <div flex=""></div>
+</div>

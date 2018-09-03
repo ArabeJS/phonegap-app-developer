@@ -1,0 +1,20 @@
+{
+  "hello": "Hello",
+  "02": "Enable Bluetooth",
+  "03": "Turn on bluetooth to sync your vehicle",
+  "04": "You did *not* enable Bluetooth",
+  "05": "Choose Bluetooth Device from List:",
+  "06": "yes",
+  "07": "No",
+  "08": "Close",
+  "09": "No connected devices found Please connect your device to the vehicle by going to Settings > Bluetooth > Search for new devices Select the device from the list and then make a link you will be asked to enter code: 1234",
+  "10": "Can not connect to this device Please make sure That you are not far from the device and make sure that the device is working (see the blue led)",
+  "11": "This device is not vehicle Please choose the device compatible with the application",
+  "12": "The information can not be read from the device",
+  "13": "Login",
+  "14": "Password not Correct",
+
+
+
+  "xx": ""
+}

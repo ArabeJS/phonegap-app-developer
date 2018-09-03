@@ -1,0 +1,55 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-bluetooth-serial": {
+      "PACKAGE_NAME": "rd.raafet.developer.inmt"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "rd.raafet.developer.inmt"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "file": "plugins/cordova-plugin-bluetooth-serial/www/bluetoothSerial.js",
+      "id": "cordova-plugin-bluetooth-serial.bluetoothSerial",
+      "pluginId": "cordova-plugin-bluetooth-serial",
+      "clobbers": [
+        "window.bluetoothSerial"
+      ]
+    },
+    {
+      "file": "plugins/cordova-plugin-bluetooth-serial/src/browser/bluetoothSerial.js",
+      "id": "cordova-plugin-bluetooth-serial.BluetoothSerial_browser",
+      "pluginId": "cordova-plugin-bluetooth-serial",
+      "clobbers": [
+        "window.bluetoothSerial"
+      ]
+    },
+    {
+      "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+      "id": "cordova-plugin-inappbrowser.inappbrowser",
+      "pluginId": "cordova-plugin-inappbrowser",
+      "clobbers": [
+        "cordova.InAppBrowser.open",
+        "window.open"
+      ]
+    },
+    {
+      "file": "plugins/cordova-plugin-inappbrowser/src/browser/InAppBrowserProxy.js",
+      "id": "cordova-plugin-inappbrowser.InAppBrowserProxy",
+      "pluginId": "cordova-plugin-inappbrowser",
+      "runs": true
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-bluetooth-serial": "0.4.7",
+    "cordova-plugin-inappbrowser": "3.0.0"
+  }
+}

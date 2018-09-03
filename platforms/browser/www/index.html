@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ng-app="RDapp" ng-controller="RDapp">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title>{{cfg.appName}}</title>
+  <link rel="stylesheet" href="[RD]/font/font.css">
+  <link rel="stylesheet" href="[RD]/lib/angular-material.min.css">
+  <link rel="stylesheet" href="[RD]/css/app.css">
+</head>
+
+<body layout="column">
+  <!--- toolbar --->
+  <md-toolbar class="md-hue-2" ng-if="nvb">
+    <div class="md-toolbar-tools" ng-controller="menu">
+      <md-button class="md-icon-button" aria-label="Settings">
+        <i class="material-icons">menu</i>
+      </md-button>
+      <h2 flex md-truncate>{{cfg.appName}}</h2>
+      <span flex></span>
+      <md-button ng-if="!motDB" class="md-raised md-warn" ng-click="addMOT()">
+        <md-icon class="material-icons">add_circle</md-icon>
+        <md-icon class="material-icons">motorcycle</md-icon>
+      </md-button>
+    </div>
+  </md-toolbar>
+  <!--- // toolbar --->
+
+  <!--- content --->
+  <div ng-view="" flex=""></div>
+
+  <div id="RD-progress" ng-show = "IsVisible" layout="row" layout-sm="column" layout-align="space-around">
+      <md-progress-circular md-mode="indeterminate"></md-progress-circular>
+  </div>
+  <!--- //content --->
+
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="cordova_plugins.js"></script>
+  <script type="text/javascript" src="[RD]/lib/angular.js"></script>
+  <script type="text/javascript" src="[RD]/lib/angular-route.js"></script>
+  <script type="text/javascript" src="[RD]/lib/angular-animate.js"></script>
+  <script type="text/javascript" src="[RD]/lib/angular-aria.min.js"></script>
+  <script type="text/javascript" src="[RD]/lib/angular-messages.min.js"></script>
+  <script type="text/javascript" src="[RD]/lib/angular-material.min.js"></script>
+  <script type="text/javascript" src="[RD]/lib/angular-translate.min.js"></script>
+  <script type="text/javascript" src="[RD]/lib/angular-translate-loader-url.min.js"></script>
+  <script type="text/javascript" src="[RD]/js/config.js"></script>
+  <script type="text/javascript" src="[RD]/js/db.js"></script>
+  <script type="text/javascript" src="[RD]/js/app.js"></script>
+</body>
+
+</html>

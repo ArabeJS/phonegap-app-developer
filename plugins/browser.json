@@ -12,6 +12,9 @@
     },
     "cordova-plugin-inappbrowser": {
       "PACKAGE_NAME": "rd.raafet.developer.inmt"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "rd.raafet.developer.inmt"
     }
   },
   "dependent_plugins": {}

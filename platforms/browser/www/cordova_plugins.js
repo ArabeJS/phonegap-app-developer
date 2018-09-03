@@ -36,7 +36,8 @@ module.exports.metadata =
 // TOP OF METADATA
 {
     "cordova-plugin-bluetooth-serial": "0.4.7",
-    "cordova-plugin-inappbrowser": "3.0.0"
+    "cordova-plugin-inappbrowser": "3.0.0",
+    "cordova-plugin-whitelist": "1.3.3"
 }
 // BOTTOM OF METADATA
 });

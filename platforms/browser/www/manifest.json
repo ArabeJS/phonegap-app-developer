@@ -1,8 +1,8 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "RD-INMT",
-  "short_name": "RD-INMT",
+  "name": "RD-web",
+  "short_name": "RD-web",
   "version": "rd.raafet.developer.inmt",
   "description": "A RD-INMT Raafet Lahmar app.",
   "author": "Raafet Lahmar",

@@ -8,14 +8,17 @@
 </head>
 
 <body layout="column">
- <center>
+ <center onclick="cordova.InAppBrowser.open('http://192.168.1.116:3000');">
   <h1>Loading...</h1>
  </center>
  
   <script type="text/javascript" src="cordova.js"></script>
   <script type="text/javascript" src="cordova_plugins.js"></script>
   <script type="text/javascript">
-	cordova.InAppBrowser.open('http://192.168.1.116:3000', '_blank', 'location=yes');
+	setTimeout(function(){ 
+		cordova.InAppBrowser.open('http://192.168.1.116:3000');
+	}, 3000);
+	
   </script>
   
 </body>
